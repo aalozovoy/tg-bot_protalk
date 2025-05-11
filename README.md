@@ -41,6 +41,9 @@ python main.py
 
 ---
 
+
+
+
 ## 🔧 **Интеграция с API**
 ### Для кнопки 2 (пример кода):
 ```python
@@ -83,13 +86,7 @@ logging.basicConfig(filename='bot.log', level=logging.INFO)
 ---
 
 ## 📞 **Поддержка**
-- **Ошибки**: [Создать issue](https://github.com/yourusername/project/issues).
-- **Чат**: [Telegram](https://t.me/your_channel).
+
 - **Статьи**: 
   - [ИИ для анализа договоров](https://habr.com/ru/articles/861770/).
   - [Парсинг закупок](https://habr.com/ru/articles/785888/).
-
----
-
-## 📄 **Лицензия**
-MIT License. Подробнее в [LICENSE](LICENSE).
