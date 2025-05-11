@@ -74,23 +74,6 @@ DB_URL=postgresql://user:password@localhost:5432/legalbot
 
 gunicorn -w 4 -k uvicorn.workers.UvicornWorker app.main:app
 
-
-🗂 Структура проекта
-
-protalk-bot/
-├── app/                    # FastAPI-приложение
-├── handlers/               # Telegram-хендлеры
-├── models/                 # Pydantic и SQLAlchemy модели
-├── services/               # Взаимодействие с внешними API (ProTalk, OpenAI)
-│   └── protalk_service.py
-├── utils/                  # Утилиты, парсеры
-├── main.py                 # Точка входа
-├── requirements.txt
-├── .env                    # Переменные окружения (не добавляйте в git)
-├── .env.example            # Шаблон .env
-└── README.md
-
-
 💬 Команды Telegram-бота
 
 | Команда        | Описание                                    |
