@@ -1,6 +1,6 @@
-python-telegram-bot==20.0
-openai>=1.0
-python-dotenv>=0.19
-beautifulsoup4>=4.0
-requests>=2.25
-pytest>=7.0
+python-telegram-bot==20.0    # Для работы с Telegram API
+openai>=1.0                  # Интеграция с OpenAI
+python-dotenv>=0.19          # Загрузка переменных окружения
+beautifulsoup4>=4.0          # Парсинг HTML (для будущих доработок)
+requests>=2.25               # HTTP-запросы
+pytest>=7.0                  # Тестирование

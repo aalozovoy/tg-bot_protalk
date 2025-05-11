@@ -31,7 +31,6 @@ Telegram-бот для автоматизации юридических зад�
 
 1. Клонируйте репозиторий
 
-```bash
 git clone https://github.com/yourusername/protalk-bot.git
 cd protalk-bot
 
